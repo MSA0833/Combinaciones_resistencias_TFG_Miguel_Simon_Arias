@@ -1,4 +1,4 @@
-# README
+# Resistor Calculator
 
 ## ¿Cuál es el propósito de este código?
 
@@ -105,11 +105,11 @@ El programa leerá las resistencias desde `resistors.txt` y los valores objetivo
 1. Instala Git y un compilador de C.
 2. Clona el repositorio:
    ```bash
-   git clone <URL del repositorio>
+   git clone https://github.com/MSA0833/Combinaciones_resistencias_TFG_Miguel_Simon_Arias.git
    ```
 3. Entra en la carpeta del proyecto:
    ```bash
-   cd resistors-combination
+   cd Combinaciones_resistencias_TFG_Miguel_Simon_Arias
    ```
 4. Compila el programa:
    ```bash
