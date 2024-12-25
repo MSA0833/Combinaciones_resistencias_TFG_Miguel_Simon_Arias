@@ -121,8 +121,28 @@ El programa leerá las resistencias desde `resistors.txt` y los valores objetivo
    ./programa
    ```
 
-¡Listo! Podrás ver el resultado en tu pantalla.
+## Cómo ejecutar el programa sin instalar Git ni un compilador de C
 
+1. **Abre el repositorio en GitHub**: Ve al siguiente enlace [GitHub Repository](https://github.com/MSA0833/Combinaciones_resistencias_TFG_Miguel_Simon_Arias/tree/main) y haz clic en el botón **Code**.
+
+2. **Inicia Codespaces**:  
+   - Aparecerá un menú desplegable; selecciona la opción **Codespaces**.  
+   - Crea un nuevo Codespace y espera a que se inicie un entorno de desarrollo integrado (IDE) en la nube.
+
+3. **Compila el programa**:  
+   Una vez en el IDE, ejecuta el siguiente comando en la terminal para compilar el programa:  
+   ```bash
+   gcc -o programa main.c -Wall -O2
+   ```
+
+4. **Modifica los archivos necesarios**:  
+   Edita los archivos `resistors.txt` y `targets.txt` según tus necesidades.
+
+5. **Ejecuta el programa**:  
+   Usa el siguiente comando para ejecutar el programa:  
+   ```bash
+   ./programa
+   ```
 ---
 
 ## Guía de Usuario (Detalles adicionales)
